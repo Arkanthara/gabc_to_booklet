@@ -1,0 +1,3 @@
+Gooey
+pypdf
+pyinstaller
