@@ -1,0 +1,112 @@
+---
+title: "Gregorian Chant"
+format:
+  pdf:
+    pdf-engine: lualatex
+    pdf-engine-opts:
+      - "-shell-escape"
+    include-in-header:
+      text: |
+        \usepackage[autocompile]{gregoriotex}
+        \usepackage{ebgaramond}
+        \usepackage{multicol}
+        \usepackage{lettrine}
+        \setlength{\columnseprule}{0.4pt}
+        \setlength{\parindent}{0pt}
+    classoption:
+      - a5paper
+    documentclass: report
+    toc: false
+    papersize: a5
+    margin-left: 2cm
+    margin-right: 2cm
+    margin-top: 2cm
+    margin-bottom: 2cm
+    fontsize: 15pt
+---
+
+\vspace{0cm}
+
+\gregorioscore{introitus}
+
+\vspace{0cm}
+
+\begin{center}
+Oratio
+\end{center}
+
+\begin{multicols}{2}
+\lettrine{P}{reces} nostras, quǽsumus, Dómine, cleménter exáudi : atque, a peccatórum vínculis absolútos, ab omni nos adversitáte custódi. Per Dóminum.
+\end{multicols}
+
+\vspace{0cm}
+
+\begin{center}
+Lectio libri sapientiae
+\end{center}
+
+\begin{multicols}{2}
+\lettrine{F}{ratres} : Si linguis hóminum loquar et Angelórum, caritátem autem non hábeam, factus sum velut æs sonans aut cýmbalum tínniens. Et si habúero prophétiam, et nóverim mystéria ómnia et omnem sciéntiam : et si habúero omnem fidem, ita ut montes tránsferam, caritátem autem non habúero, nihil sum. Et si distribúero in cibos páuperum omnes facultátes meas, et si tradídero corpus meum, ita ut árdeam, caritátem autem non habuero, nihil mihi prodest.
+Cáritas patiens est, benígna est : cáritas non æmulátur, non agit pérperam, non inflátur, non est ambitiósa, non quærit quæ sua sunt, non irritátur, non cógitat malum, non gaudet super iniquitáte, congáudet autem veritáti : ómnia suifert, ómnia credit, ómnia sperat, ómnia sústinet.
+Cáritas numquam éxcidit : sive prophétiæ evacuabúntur, sive linguæ cessábunt, sive sciéntia destruétur. Ex parte enim cognóscimus, et ex parte prophetámus. Cum autem vénerit quod perféctum est, evacuábitur quod ex parte est. Cum essem párvulus, loquébar ut párvulus, sapiébam ut párvulus, cogitábam ut párvulus. Quando autem factus sum vir, evacuávi quæ erant párvuli. Vidémus nunc per spéculum in ænígmate : tunc autem fácie ad fáciem.
+Nunc cognósco ex parte : tunc autem cognóscam, sicut et cógnitus sum. Nunc autem manent fides, spes, cáritas, tria hæc : maior autem horum est cáritas.
+\end{multicols}
+
+\vspace{2cm}
+
+\gregorioscore{graduale}
+
+\vspace{0cm}
+
+\gregorioscore{tractus}
+
+\vspace{0cm}
+
+\begin{center}
+Sancti Evangeli secundum Johanem
+\end{center}
+
+\begin{multicols}{2}
+\lettrine{I}{n} illo témpore : Assúmpsit Iesus duódecim, et ait illis : Ecce, ascéndimus Ierosólymam, et consummabúntur ómnia, quæ scripta sunt per Prophétas de Fílio hominis. Tradátur enim Géntibus, et illudétur, et flagellábitur, et conspuétur : et postquam flagelláverint, occídent eum, et tértia die resúrget. Et ipsi nihil horum intellexérunt, et erat verbum istud abscónditum ab eis, et non intellegébant quæ dicebántur.
+Factum est autem, cum appropinquáret Iéricho, cæcus quidam sedébat secus viam, mendícans. Et cum audíret turbam prætereúntem, interrogábat, quid hoc esset. Dixérunt autem ei, quod Iesus Nazarénus transíret. Et clamávit, dicens : Iesu, fili David, miserére mei. Et qui præíbant, increpábant eum, ut tacéret. Ipse vero multo magis clamábat : Fili David, miserére mei. Stans autem Iesus, iussit illum addúci ad se. Et cum appropinquásset, interrogávit illum, dicens : Quid tibi vis fáciam ? At ille dixit : Dómine, ut vídeam. Et Iesus dixit illi : Réspice, fides tua te salvum fecit. Et conféstim vidit, et sequebátur illum, magníficans Deum. Et omnis plebs ut vidit, dedit laudem Deo.
+\end{multicols}
+
+\vspace{0cm}
+
+\gregorioscore{offertorium}
+
+\vspace{0cm}
+
+\begin{center}
+Secreta
+\end{center}
+
+\begin{multicols}{2}
+\lettrine{H}{aec} hóstia, Dómine, quǽsumus, emúndet nostra delícta : et, ad sacrifícium celebrándum, subditórum tibi córpora mentésque sanctíficet. Per Dóminum.
+\end{multicols}
+
+\vspace{0cm}
+
+\begin{center}
+Praefacio de Sancta Trinita
+\end{center}
+
+\begin{multicols}{2}
+\lettrine{V}{ere} dignum et iustum est, æquum et salutáre, nos tibi semper et ubíque grátias ágere : Dómine, sancte Pater, omnípotens ætérne Deus :
+Qui cum Unigénito Fílio tuo et Spíritu Sancto unus es Deus, unus es Dóminus : non in uníus singularitáte persónæ, sed in uníus Trinitáte substántiæ. Quod enim de tua glória, revelánte te, crédimus, hoc de Fílio tuo, hoc de Spíritu Sancto, sine discretióne sentímus. Ut, in confessióne veræ sempiternǽque Deitátis, et in persónis propríetas, et in esséntia únitas, et in maiestáte adorétur æquálitas.
+Quam laudant Angeli atque Archángeli, Chérubim quoque ac Séraphim, qui non cessant clamáre cotídie, una voce dicéntes
+\end{multicols}
+
+\vspace{0cm}
+
+\gregorioscore{communio}
+
+\vspace{0cm}
+
+\begin{center}
+Postcommunio
+\end{center}
+
+\begin{multicols}{2}
+\lettrine{Q}{uaesumus}, omnípotens Deus : ut, qui cæléstia aliménta percépimus, per hæc contra ómnia adversa muniámur. Per Dóminum.
+\end{multicols}
